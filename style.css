@@ -7,11 +7,12 @@ body{
 }
 .flexible-container{
     display: flex;
-    margin-bottom: 100px;
+    margin-bottom: 00px;
+    padding: 0 50px;
 
 }
 p{
-    margin-bottom: 50px ;
+    margin-bottom: 120px ;
 }
 .half-width{
 width: 50%;
@@ -24,7 +25,7 @@ padding-left:10% ;
 .link-button{
     text-decoration: none;
     background: linear-gradient(45deg, lightsalmon, tomato);
-    padding: 10px 40px;
+    padding: 10px 45px;
     border-radius: 5px;
     color: white;
     font-weight: 700;
@@ -36,15 +37,16 @@ padding-left:10% ;
 .dream-big{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
-    /*background-position:left ;*/
+    background-position:right; 
 }
+
 .experience-item
 {
-    width:40%;
-    border-radius: 5px;
-    margin-left: 5%;
-    margin-right: 5%;
-    padding-left: 40px;
+    width:42%;
+    border-radius: 10px;
+    /*margin-left: 5%;
+    margin-right: 5%;*/
+    padding-left: 10px;
     box-shadow: 5px 7px 40px  gray
 
 }
